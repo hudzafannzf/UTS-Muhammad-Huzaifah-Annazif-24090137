@@ -1,7 +1,7 @@
 NAMA : Muhammad Huzaifah Annazif
 NIM  : 24090137
-Link Github Repository:
-Link Github Pages:
+Link Github Repository:https://github.com/hudzafannzf/UTS-Muhammad-Huzaifah-Annazif-24090137
+Link Github Pages: https://hudzafannzf.github.io/UTS-Muhammad-Huzaifah-Annazif-24090137/
 
 1. Halaman Login (`index.html`)
 Halaman bagi pengguna untuk masuk dengan mengisi username sebagai"Email Adress" dan nim sebagai "password"
