@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produk </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="dashboard.html" title="Dashboard"><img src="assets/home.png" alt="Home" class="side-icon"></a></li>
+          <li><a href="products.html" class="active" title="List Produk"><img src="assets/APPS.png" alt="Apps" class="side-icon"></a></li>
+          <li><a href="#" title="revenue"><img src="assets/dollar.png" alt="Revenue" class="side-icon"></a></li>
+          <li><a href="#" title="finance"><img src="assets/sales.png" alt="Finance" class="side-icon"></a></li>
+          <li><a href="index.html" title="Logout"><img src="assets/setting.png" alt="Logout" class="side-icon"></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1>List Data Product</h1>
+      </header>
+
+      <section class="table-wrap">
+        <table id="productsTable">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Stock</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows dihasilkan oleh JS -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="login-page">
+    <div class="login-card">
+      <div class="login-left">
+        <img src="assets/komputer.png" alt="Programmer Illustration" class="login-illustration">
+      </div>
+      <div class="login-right">
+        <h1>Welcome Back!</h1>
+        <form id="loginForm" novalidate>
+
+            <div class="input-group">
+            <span class="icon">@</span>
+            <input id="email" type="email" placeholder="Email Address" required>
+          </div>
+
+          <div class="input-group">
+            <span class="icon"><img src="assets/lock.png" alt="Lock" style="width:18px;height:18px;display:block"></span>
+            <input id="password" type="password" placeholder="Password" required>
+          </div>
+
+          <div class="forgot-wrap">
+            <a href="#" class="forgot">Forgot Password?</a>
+          </div>
+
+          <div class="form-actions">
+            <button id="loginBtn" class="btn-login" type="button">Login</button>
+          </div>
+
+          <div class="divider">Or</div>
+
+          <div class="social-buttons">
+            <button type="button" class="social google">
+              <img src="assets/google-black-icon.png" alt="Google" style="width:18px;height:18px;margin-right:8px;vertical-align:middle">
+              Google
+            </button>
+
+            <button type="button" class="social facebook">
+              <img src="assets/fb.png" alt="Facebook" style="width:18px;height:18px;margin-right:8px;vertical-align:middle">
+              Facebook
+            </button>
+          </div>
+
+          <p class="signup-text">Don't have an account? <a href="#" class="signup-link">Sign Up</a></p>
+          <p id="errorMsg" class="error" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

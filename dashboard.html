@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="dashboard.html" class="active" title="Dashboard"><img src="assets/home.png" alt="Home" class="side-icon"></a></li>
+          <li><a href="products.html" title="List Produk"><img src="assets/APPS.png" alt="Apps" class="side-icon"></a></li>
+          <li><a href="#" title="revenue"><img src="assets/dollar.png" alt="Revenue" class="side-icon"></a></li>
+          <li><a href="#" title="finance"><img src="assets/sales.png" alt="Finance" class="side-icon"></a></li>
+          <li><a href="index.html" title="Logout"><img src="assets/setting.png" alt="Logout" class="side-icon"></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1>Dashboard</h1>
+      </header>
+
+      <section class="panel">
+        <div class="summary-cards">
+          <div class="card">
+            <div class="card-icon"><img src="assets/total produk.png" alt="Total Produk"></div>
+            <h3>Total Produk</h3>
+            <p id="totalProducts">-</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><img src="assets/total penjualan.png" alt="Total Penjualan"></div>
+            <h3>Total Penjualan</h3>
+            <p id="totalSales">-</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><img src="assets/revenue.png" alt="Revenue"></div>
+            <h3>Total Revenue</h3>
+            <p id="totalRevenue">-</p>
+          </div>
+        </div>
+
+        <div class="big-box"></div>
+      </section>
+
+      <section class="actions">
+        <button id="toProducts" class="btn-view-products">Lihat Data Produk</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
